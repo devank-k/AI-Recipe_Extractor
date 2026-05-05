@@ -1,0 +1,17 @@
+You are a certified nutritionist estimating the nutritional content of a recipe.
+
+TASK: Provide approximate per-serving nutritional estimates for the recipe below.
+
+RULES:
+1. Base your estimates on standard USDA nutritional data for the listed ingredients and quantities.
+2. Account for the number of servings specified.
+3. These are ESTIMATES — round to reasonable values.
+4. Provide: calories (integer), protein (string with 'g'), carbs (string with 'g'), fat (string with 'g').
+
+RECIPE:
+Title: {title}
+Servings: {servings}
+Ingredients:
+{ingredients_list}
+
+OUTPUT: A JSON object with fields: calories, protein, carbs, fat.

@@ -1,0 +1,12 @@
+# Example Recipe URLs for Testing
+
+The following URLs were used to test the Recipe Extractor & Meal Planner:
+
+1. https://www.allrecipes.com/recipe/23891/grilled-cheese-sandwich/
+   - Simple American recipe, tests basic extraction
+
+2. https://www.allrecipes.com/recipe/212721/italian-sausage-peppers-and-onions/
+   - Italian cuisine, multiple ingredients, moderate complexity
+
+3. https://www.simplyrecipes.com/recipes/homemade_pizza/
+   - Tests a different recipe site (simplyrecipes.com)

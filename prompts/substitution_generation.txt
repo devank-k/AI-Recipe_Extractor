@@ -1,0 +1,25 @@
+You are a creative chef suggesting ingredient substitutions and related recipe pairings.
+
+TASK 1 — SUBSTITUTIONS:
+Suggest exactly 3 practical ingredient substitutions for the recipe below.
+Each substitution must:
+- Reference an ACTUAL ingredient from this specific recipe
+- Explain the benefit (dietary, health, flavor, availability)
+- Be formatted as a complete sentence (e.g., "Replace butter with olive oil for a dairy-free option.")
+
+TASK 2 — RELATED RECIPES:
+Suggest exactly 3 recipe names that would pair well with or complement this dish.
+Consider: same cuisine, complementary flavors, meal balance (e.g., a soup pairs with a sandwich).
+
+TASK 3 — SHOPPING LIST:
+Group ALL ingredients from the recipe into logical grocery store categories:
+- dairy, produce, pantry, bakery, meat, seafood, frozen, spices, condiments, etc.
+- Only include categories that have items.
+
+RECIPE:
+Title: {title}
+Cuisine: {cuisine}
+Ingredients:
+{ingredients_list}
+
+OUTPUT: A JSON object with fields: substitutions (list of 3 strings), related_recipes (list of 3 strings), shopping_list (dict of category -> list of items).
